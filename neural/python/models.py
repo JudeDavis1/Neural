@@ -59,7 +59,7 @@ class NN:
                 self.optimizer._propagate(self.layers[i])
     
     def plot_loss(self):
-        plt.title('Evolution of Loss over epochs (lower loss is better!)')
+        plt.title('Evolution of Loss over epochs (lower is better)')
         plt.xlabel('Epochs')
         plt.ylabel('Loss')
         plt.plot(range(self.epochs), self.all_losses)
