@@ -1,0 +1,7 @@
+.*
+Neural.*
+!/.gitignore
+neural/cpp/Neural/.vs
+neural/cpp/Neural/Debug/
+!/neural/cpp/Neural/Neural/src/neural.cc
+!/neural/cpp/Neural/Neural/src/neural.h
